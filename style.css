@@ -11,7 +11,7 @@ body{
 
 .post-header{
     display: flex;
-    height: 30px;
+    height: 20px;
 	margin: auto;
 }
 
@@ -20,27 +20,50 @@ body{
   height: auto;
 }
 
+.inst1{
+  position: relative;
+  margin-top: 5px;
+  margin-left: -310px;
+  left: 90%;
+}
+
 .inst2{
   position: relative;
-  left: 100%;
-  margin-top: -30px;
+  margin-top: -20px;
+  margin-left: 350px;
+  margin-right: 90%;
 }
 
 .puntos{
   position: relative;
-  left: 80%;
-  margin-top: -30px;
+  left: 90%;
+  margin-left: 5px;
+  font-size: 1.2rem
 }
 
 .post-icons{
-    padding: 40px 15px;
-    margin-top: -30px;
+    padding: 35px 20px;
+    margin-top: -25px;
 }
 
 .form-text{
-    margin-top: -35px;
-    margin-left: 40px;
+    margin-top: -10px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
+.material-icons{
+    margin-top: -20px;
+    margin-left: 15px;
+    
+}
+
+.text-muted{
+     margin-top: -15px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
 
    
